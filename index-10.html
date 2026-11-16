@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#09160f">
+<meta name="description" content="کافه نفس؛ منوی کامل قهوه، قلیان، شیک، صبحانه و دسر. ساعت کاری ۹ صبح تا ۱۲ شب. | Nafas Café: coffee, hookah, shakes, breakfast and desserts.">
+
+<meta property="og:type" content="website"><meta property="og:title" content="کافه نفس | Nafas Café"><meta property="og:description" content="منو و سفارش آنلاین کافه نفس">
+<!-- Search Console: paste your verification tag below -->
+<!-- <meta name="google-site-verification" content="YOUR-CODE"> -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"کافه نفس","alternateName":"Nafas Café","telephone":["+989010197501","+989032470205"],"address":{"@type":"PostalAddress","streetAddress":"آخر خیابان رودکی، روبه‌روی خیابان متین","addressCountry":"IR"},"openingHours":"Mo-Su 09:00-23:59","sameAs":["https://www.instagram.com/cafe_._nafas","https://maps.app.goo.gl/Nu3QWjLzNDqxn5z4A"],"hasMap":"https://maps.app.goo.gl/Nu3QWjLzNDqxn5z4A"}</script>
+<title>کافه نفس | Nafas Café</title>
+<style>
+:root{--bg:#0c231a;--bg2:#12301f;--bg3:#173b29;--cream:#efe6d2;--mute:#a9b79f;--line:rgba(239,230,210,.16);--sage:#8fae8b;--fd:"Noto Naskh Arabic","Vazirmatn",Tahoma,serif;color-scheme:dark}
+html[lang=en]{--fd:"Cormorant Garamond",Georgia,serif}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--cream);font:400 16px/1.9 Tahoma,"Segoe UI",sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:var(--fd);font-weight:700;margin:0;line-height:1.4}
+html[lang=en] body{line-height:1.7}
+a{color:inherit;text-decoration:none}
+button,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--cream);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+nav{position:fixed;inset:0 0 auto 0;z-index:20;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:calc(12px + env(safe-area-inset-top,0px)) 22px 12px;background:linear-gradient(var(--bg),transparent)}
+nav b{font:700 26px var(--fd)}
+nav div{display:flex;gap:8px}
+.btn{display:inline-block;border:1px solid var(--cream);border-radius:99px;padding:10px 26px;font-weight:400;background:none;cursor:pointer;transition:background .25s,color .25s}
+.btn:hover{background:var(--cream);color:var(--bg)}
+.btn.solid{background:var(--cream);color:var(--bg)}
+.btn.solid:hover{background:transparent;color:var(--cream)}
+.btn.sm{padding:4px 16px;font-size:14px}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 70%,var(--bg3),var(--bg) 70%)}
+.hero h1{font-size:clamp(110px,30vw,270px);position:relative;z-index:1;animation:rise 1.6s cubic-bezier(.2,.7,.2,1) both}
+html[lang=en] .hero h1{font-size:clamp(90px,24vw,230px)}
+.hero p{margin:-6px 0 30px;color:var(--mute);font-size:19px;position:relative;z-index:1}
+.row{display:flex;gap:12px;flex-wrap:wrap}.hero .row{justify-content:center;position:relative;z-index:1}
+.steam{position:absolute;inset:0;pointer-events:none}
+.steam i{position:absolute;bottom:-20%;width:46vmin;height:46vmin;border-radius:50%;background:radial-gradient(circle,rgba(239,230,210,.11),transparent 65%);filter:blur(18px);animation:drift 14s ease-in infinite}
+.steam i:nth-child(1){left:6%}.steam i:nth-child(2){left:38%;animation-delay:-5s}.steam i:nth-child(3){left:66%;animation-delay:-9s}
+@keyframes drift{0%{transform:translateY(0) scale(.7);opacity:0}25%{opacity:1}100%{transform:translateY(-120vh) scale(1.5);opacity:0}}
+@keyframes rise{from{opacity:0;filter:blur(14px)}to{opacity:1;filter:none}}
+.hours{position:absolute;bottom:calc(26px + env(safe-area-inset-bottom,0px));inset-inline:0;z-index:1;font-size:14px;color:var(--mute)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--sage);margin-inline-end:8px}.dot.off{background:#7a5b4a}
+section{padding:96px 0}
+.about{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;align-items:center}
+h2{font-size:clamp(36px,6.5vw,58px)}
+.about p{margin:0;color:var(--mute);max-width:46ch}
+.menu{background:var(--bg2)}.menu h2{margin-bottom:22px}
+.tools{position:sticky;top:calc(52px + env(safe-area-inset-top,0px));z-index:10;background:var(--bg2);padding:10px 0 14px}
+.search{width:100%;background:transparent;border:0;border-bottom:1px solid var(--line);font-size:16px;padding:8px 2px;margin-bottom:12px}
+.search::placeholder{color:var(--mute)}
+.tabs{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.tabs button{flex:none;background:none;border:1px solid var(--line);color:var(--mute);font-size:14px;padding:6px 16px;border-radius:99px;cursor:pointer}
+.tabs button[aria-pressed=true]{background:var(--cream);color:var(--bg);border-color:var(--cream)}
+.list{display:grid;grid-template-columns:1fr 1fr;gap:0 56px;animation:fade .4s ease;padding-bottom:90px}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.it{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0;border-bottom:1px dotted var(--line);font-size:18px}
+.list h3{grid-column:1/-1;font-size:26px;margin:28px 0 4px;color:var(--sage)}
+.q{display:flex;align-items:center;gap:10px;flex:none}
+.q button{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:none;cursor:pointer;font-size:20px;line-height:1;padding:0}
+.q button.p{border-color:var(--cream)}.q button:hover{background:var(--cream);color:var(--bg)}
+.q span{min-width:1.4em;text-align:center}
+.empty{color:var(--mute);padding:30px 0}
+.visit{display:grid;grid-template-columns:1fr;gap:48px;align-items:center}
+.visit h2{margin-bottom:18px}
+.visit dl{margin:0 0 26px;display:grid;grid-template-columns:auto 1fr;gap:10px 22px}
+.visit dt{color:var(--mute)}.visit dd{margin:0}
+footer{border-top:1px solid var(--line);padding:30px 0 calc(90px + env(safe-area-inset-bottom,0px));text-align:center;color:var(--mute);font-size:14px}
+.cbar{position:fixed;inset:auto 14px calc(14px + env(safe-area-inset-bottom,0px));z-index:30;max-width:520px;margin:0 auto;background:var(--cream);color:var(--bg);border-radius:99px;padding:14px 26px;display:none;justify-content:space-between;font-weight:600;cursor:pointer;border:0;box-shadow:0 8px 30px rgba(0,0,0,.45)}
+.cbar.on{display:flex}
+.ov{position:fixed;inset:0;z-index:40;background:rgba(5,15,10,.8);display:none;align-items:flex-end;justify-content:center}
+.ov.on{display:flex}
+.sheet{background:var(--bg2);width:100%;max-width:560px;max-height:92svh;overflow:auto;border-radius:22px 22px 0 0;padding:26px 24px calc(24px + env(safe-area-inset-bottom,0px))}
+.sheet h3{font-size:30px;margin-bottom:12px}
+.sheet .it{font-size:16px}
+.sheet input,.sheet textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:6px 0 14px}
+.sheet label{color:var(--mute);font-size:14px}
+.done{text-align:center}.done b{display:block;font:700 64px var(--fd);margin:10px 0}
+#cashier{display:none;padding:90px 0}
+body.cash #cashier{display:block}body.cash header.hero,body.cash #about,body.cash #menu,body.cash #visit,body.cash .cbar{display:none}
+.warn{background:var(--bg3);border-radius:10px;padding:10px 16px;color:var(--mute);margin:12px 0}
+.oc{background:var(--bg2);border-radius:14px;padding:16px 20px;margin:14px 0}
+.oc head,.oc .h{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.oc .h b{font:700 24px var(--fd)}
+.oc .ln{display:grid;grid-template-columns:1fr auto 110px;gap:10px;align-items:center;padding:4px 0;border-bottom:1px dotted var(--line);font-size:16px}
+.oc input{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:2px 8px;width:100%;direction:ltr;text-align:end}
+.st{border-radius:99px;padding:0 12px;font-size:13px;background:var(--bg3)}
+.st.paid{background:var(--cream);color:var(--bg)}
+#rcpt{display:none}
+@media(max-width:720px){body{font-size:16px}section{padding:64px 0}.about,.visit{grid-template-columns:1fr;gap:26px}.list{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+@page{size:80mm auto;margin:4mm}
+@media print{body{background:#fff;color:#000}body>*:not(#rcpt){display:none!important}#rcpt{display:block}
+.r{font:12px/1.5 "Courier New",monospace;width:72mm;color:#000;page-break-after:always;direction:ltr}.r h4{margin:0;text-align:center;font-size:17px}
+.r p{margin:0;text-align:center}.r .l{display:flex;justify-content:space-between;gap:6px}.r hr{border:0;border-top:1px dashed #000;margin:6px 0}}
+
+:root{--bg:#09160f;--bg2:#0d1d14;--bg3:#12281b;--gold:#d9b46a;--sage:#d9b46a;--mute:#b9b49c;--line:rgba(217,180,106,.25);--orn:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='14' viewBox='0 0 180 14'%3E%3Cpath d='M0 7H70M110 7H180' stroke='%23d9b46a'/%3E%3Cpath d='M90 1L97 7L90 13L83 7Z' fill='%23d9b46a'/%3E%3Ccircle cx='76' cy='7' r='2' fill='%23d9b46a'/%3E%3Ccircle cx='104' cy='7' r='2' fill='%23d9b46a'/%3E%3C/svg%3E")}
+body{background:radial-gradient(1100px 600px at 15% 0,rgba(34,78,50,.55),transparent 60%),radial-gradient(900px 700px at 95% 45%,rgba(24,60,38,.5),transparent 60%),#060d09}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.13;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='700' height='700'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.006 .014' numOctaves='4' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .85 0 0 0 0 .68 0 0 0 0 .38 1 0 0 0 0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='table' tableValues='0 0 0 0 0 .9 0 0 0 0 0'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23f)'/%3E%3C/svg%3E")}
+body>*{position:relative;z-index:1}nav,.cbar,.ov{position:fixed}
+nav{background:linear-gradient(#060d09,transparent)}nav b{color:var(--gold)}
+.btn{border-color:var(--gold);color:var(--gold)}.btn:hover{background:var(--gold);color:#0c1a12}
+.btn.solid{background:linear-gradient(180deg,#efd593,#c9993f);color:#1a1307;border-color:#c9993f}.btn.solid:hover{background:transparent;color:var(--gold)}
+.hero{min-height:0;display:block;background:none;padding:96px 0 40px}
+.arch{position:relative;width:min(92vw,560px);margin:70px auto 0;padding:150px 26px 34px;border:2px solid var(--gold);border-radius:280px 280px 14px 14px;box-shadow:0 0 0 6px #060d09,0 0 0 7px rgba(217,180,106,.5),0 0 70px rgba(217,180,106,.1) inset;background:rgba(6,16,11,.6)}
+.cup{position:absolute;top:16px;left:50%;width:170px;margin-inline-start:-85px;overflow:visible}
+.cup .sm{fill:none;stroke:#efe6d2;stroke-width:2;stroke-linecap:round;opacity:.55;stroke-dasharray:60 40;animation:fl 5s linear infinite}.cup .sm:nth-child(2){animation-delay:-1.6s}.cup .sm:nth-child(3){animation-delay:-3.2s}
+@keyframes fl{to{stroke-dashoffset:-200}}
+.lamp{position:absolute;top:60px;width:54px;filter:drop-shadow(0 0 14px rgba(255,190,90,.6));animation:fk 4s ease-in-out infinite}.l1{left:3%}.l2{right:3%;animation-delay:-2s}
+@keyframes fk{50%{filter:drop-shadow(0 0 22px rgba(255,200,110,.9))}}
+.hero h1.ttl,html[lang=en] .hero h1.ttl{font:700 clamp(64px,17vw,108px)/1.25 Tahoma,serif;margin:0;background:linear-gradient(180deg,#fbeab9,#d9b46a 55%,#9a7330);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 3px 8px rgba(0,0,0,.7));animation:rise 1.4s ease both}
+html[lang=en] .hero h1.ttl{font-family:Georgia,serif;font-style:italic;font-size:clamp(54px,14vw,92px)}
+.sub{font:500 15px Georgia,serif;letter-spacing:.55em;color:var(--gold);padding-inline-start:.55em}
+html[lang=en] .sub{letter-spacing:.1em;font-family:var(--fd);font-size:20px}
+.orn{height:14px;margin:14px auto;background:var(--orn) center/180px 14px no-repeat}
+.hero p{margin:0 0 24px;color:#d8cfb6}
+.hours{position:static;margin-top:22px}
+section{padding:80px 0}
+section h2{text-align:center;color:var(--gold)}
+h2::after{content:"";display:block;height:14px;margin:12px auto 0;background:var(--orn) center/180px 14px no-repeat}
+.visit h2{text-align:start}.visit h2::after{margin:12px 0 0;background-position:start}
+.about{display:block;text-align:center;max-width:640px;margin:0 auto;padding:44px 28px;border:1px solid var(--gold);outline:1px solid rgba(217,180,106,.35);outline-offset:7px;border-radius:6px;background:rgba(6,16,11,.5)}
+.about p{margin:16px auto 0}
+.menu{background:rgba(9,22,15,.7);border-block:1px solid var(--line)}
+.tools{background:#0a1a11}
+.tabs button[aria-pressed=true]{background:var(--gold);color:#1a1307;border-color:var(--gold)}
+.list h3{color:var(--gold)}
+.q button.p{border-color:var(--gold);color:var(--gold)}.q button:hover{background:var(--gold);color:#1a1307}
+.cbar{background:linear-gradient(180deg,#efd593,#c9993f);color:#1a1307}
+.sheet{border-top:1px solid var(--gold);background:#0b1a11}
+.visit dt{color:var(--gold)}
+footer{border-top:1px solid var(--line)}
+@media(max-width:720px){.arch{border-radius:200px 200px 12px 12px;padding-top:130px;margin-top:90px}.lamp{width:38px;top:56px}.cup{width:150px;margin-inline-start:-75px}}
+
+.hero{padding:70px 14px 30px;display:flex;justify-content:center}
+.card{position:relative;container-type:inline-size;aspect-ratio:2/3;width:min(100%,640px);background:radial-gradient(ellipse at 50% 18%,rgba(217,180,106,.16),transparent 44%),linear-gradient(155deg,#15251a,#060d09 72%);border-radius:6px;box-shadow:0 0 60px rgba(0,0,0,.7)}
+.card .t{position:absolute;inset-inline:8%;margin:0;text-align:center}
+.card h1.ttl,html[lang=en] .card h1.ttl{top:24%;font-size:15cqw;line-height:1.2}
+html[lang=en] .card h1.ttl{font-size:12cqw}
+.card .sub{top:40%;font-size:2.4cqw;letter-spacing:.5em;padding:0}
+html[lang=en] .card .sub{font-size:4.2cqw;letter-spacing:.1em}
+.card .tg{top:44.5%;font-size:max(13px,3cqw);color:#e6dcc0}
+.card .bt{top:59.5%;display:flex;justify-content:center;flex-wrap:wrap;gap:2cqw;inset-inline:14%}
+.card .bt .btn{padding:1cqw 3cqw;font-size:max(12px,2.5cqw);white-space:nowrap}
+.card .hours{top:75.5%;font-size:max(11px,2.2cqw);margin:0}
+
+.card .tg{top:43%;font-size:max(12px,2.7cqw);line-height:1.7;inset-inline:12%}
+.card .fr{top:55.5%;font:700 5.4cqw/1.3 Tahoma,var(--fd);color:var(--gold);inset-inline:14%}
+html[lang=en] .card .fr{font-family:Georgia,serif;font-size:5cqw}
+.card .bt{top:63%}
+.card .boxes{top:74%;inset-inline:7%;display:flex;gap:1.6cqw;align-items:stretch}
+.boxes div{flex:1;border:1px solid var(--gold);outline:1px solid rgba(217,180,106,.3);outline-offset:2px;border-radius:5px;background:rgba(5,12,8,.78);padding:1.2cqw 1cqw;display:flex;flex-direction:column;justify-content:center;gap:.4cqw;font-size:max(9.5px,2cqw);line-height:1.45}
+.boxes small{color:var(--gold);font-size:max(9px,1.9cqw);font-weight:600}
+.card .hours{top:90%;font-size:max(10.5px,2.1cqw)}
+.list h3.cat{font-size:34px;margin:46px 0 4px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.list h3.cat:first-child{margin-top:8px}
+.list h3:not(.cat){font-size:21px;opacity:.85}
+
+.it .nm{flex:1}.it .pr{color:var(--gold);font-size:15px;white-space:nowrap}
+.unit{text-align:center;color:var(--mute);margin:-6px 0 18px;font-size:14px}
+
+/* Nafas refresh: refined spacing, accessibility and small-screen controls */
+nav{backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);padding-inline:max(18px,env(safe-area-inset-right)) max(18px,env(safe-area-inset-left))}
+nav .btn{min-height:38px;display:inline-flex;align-items:center;justify-content:center}
+.card{border:1px solid rgba(217,180,106,.78);overflow:hidden;isolation:isolate}
+.card:after{content:"";position:absolute;inset:12px;border:1px solid rgba(217,180,106,.3);pointer-events:none;border-radius:3px}
+.btn{min-height:42px}
+.search{border-radius:10px 10px 0 0;transition:border-color .2s}
+.search:focus{border-color:var(--gold);outline:none}
+.tabs button{min-height:38px}
+.it{transition:background .18s,border-color .18s}
+.it:hover{background:rgba(217,180,106,.06)}
+.cbar{width:calc(100% - 28px);max-width:520px}
+.sheet{padding-bottom:calc(28px + env(safe-area-inset-bottom,0px))}
+@media(max-width:480px){.tools{top:58px}nav{padding-inline:14px}.hero{padding-inline:10px}.card{width:100%}.card .boxes{gap:1.2cqw}.card .boxes div{font-size:max(9px,1.9cqw)}section{padding:62px 0}}
+@media(hover:none){.btn:hover{background:initial;color:inherit}.btn.solid:hover{background:linear-gradient(180deg,#efd593,#c9993f);color:#1a1307}}
+
+/* Final polish */
+html{scrollbar-color:rgba(217,180,106,.45) #07110b}
+::selection{background:var(--gold);color:#111}
+button:disabled{opacity:.55;cursor:not-allowed}
+.it:focus-within{background:rgba(217,180,106,.08)}
+@media(max-width:380px){.card .boxes div{padding:1.5cqw .7cqw}.card .boxes span{overflow-wrap:anywhere}.nav .btn{padding-inline:10px}}
+@media(prefers-reduced-motion:reduce){.cup .sm,.lamp{animation:none!important}}
+</style>
+</head>
+<body>
+<nav aria-label="ناوبری اصلی"><b data-i="brand"></b><div><button class="btn sm" id="lg" type="button" aria-label="Change language">EN</button><a class="btn sm" href="#menu" data-i="menu"></a></div></nav>
+
+<header class="hero"><div class="card">
+ <h1 class="ttl t" data-i="title"></h1>
+ <div class="sub t" data-i="sub"></div>
+ <p class="tg t" data-i="tag"></p>
+ <div class="fr t" data-i="frame"></div>
+ <div class="row bt t"><a class="btn solid" href="#menu" data-i="seeMenu"></a><a class="btn" href="#visit" data-i="find"></a></div>
+ <div class="boxes t"><div><small data-i="hrs"></small><span data-i="hrsV"></span></div><div><small data-i="addr"></small><span data-i="addrV"></span></div><div><small data-i="tel"></small><span dir="ltr">0901 019 7501 | 0903 247 0205</span></div></div>
+ <div class="hours t"><span class="dot" id="dot"></span><span id="state"></span></div>
+</div></header>
+
+<section id="about"><div class="wrap about">
+ <h2 data-i="aboutH"></h2>
+ <p data-i="aboutP"></p>
+</div></section>
+
+<section class="menu" id="menu"><div class="wrap">
+ <h2 data-i="menu"></h2>
+ <p class="unit" data-i="unit"></p>
+ <div class="tools">
+  <input class="search" id="q" type="search" aria-label="جستجو در منو" data-p="search">
+  <div class="tabs" id="tabs"></div>
+ </div>
+ <div class="list" id="list" aria-live="polite"></div>
+</div></section>
+
+<section id="visit"><div class="wrap visit">
+ <div>
+  <h2 data-i="visitH"></h2>
+  <dl>
+   <dt data-i="addr"></dt><dd data-i="addrV"></dd>
+   <dt data-i="hrs"></dt><dd data-i="hrsV"></dd>
+   <dt data-i="tel"></dt><dd><a href="tel:09010197501" dir="ltr">0901 019 7501</a><br><a href="tel:09032470205" dir="ltr">0903 247 0205</a></dd>
+   <dt>Instagram</dt><dd><a href="https://www.instagram.com/cafe_._nafas" dir="ltr">@cafe_._nafas</a></dd>
+  </dl>
+  <div class="row">
+   <a class="btn solid" href="https://maps.app.goo.gl/Nu3QWjLzNDqxn5z4A" data-i="map"></a>
+   <a class="btn" href="tel:09010197501" data-i="call"></a>
+   <a class="btn" href="tel:09032470205" data-i="call"></a>
+  </div>
+ </div>
+</div></section>
+
+<footer>© <span data-i="brand"></span><br><span dir="ltr" style="font-size:13px;opacity:.8">Built by Ali_shadow_dew</span></footer>
+
+<button class="cbar" id="cbar"><span id="cn"></span><span id="ct"></span></button>
+<div class="ov" id="ov"><div class="sheet" id="sheet"></div></div>
+
+<script src="config.js"></script>
+<script>
+var T={fa:{brand:"نفس",unit:"قیمت‌ها به هزار تومان است",title:"کافه نفس",sub:"NAFAS CAFÉ",addr:"آدرس",addrV:"آخر خیابان رودکی، روبه‌روی خیابان متین",tag:"لذت یک فنجان از بهترین لحظه‌ها",frame:"قهوه · قلیان · دسر · صبحانه",all:"همه",seeMenu:"دیدن منو و سفارش",find:"آدرس و تماس",menu:"منو",aboutH:"یک نفس عمیق، یک فنجان آرام",aboutP:"نفس جایی است برای قهوه‌ی تازه، قلیان، دسر و صبحانه در فضایی گرم و آرام. بنشینید، گپ بزنید یا فقط چند دقیقه از شلوغی شهر فاصله بگیرید.",search:"جستجو در منو، مثلاً لاته",visitH:"به نفس بیایید",hrs:"ساعت کاری",hrsV:"هر روز، ۹ صبح تا ۱۲ شب",tel:"تلفن",map:"مسیریابی روی نقشه",call:"تماس برای رزرو",open:"اکنون باز است، تا ۱۲ شب",closed:"اکنون بسته است، از ۹ صبح باز می‌شویم",view:"مشاهده سفارش",items:"مورد",yourOrder:"سفارش شما",who:"شماره‌ی میز یا نام",note:"توضیحات (اختیاری)",place:"ثبت سفارش",need:"شماره‌ی میز یا نام را بنویسید.",done:"سفارش ثبت شد",doneP:"شماره‌ی سفارش را به صندوق بگویید.",close:"بستن",none:"موردی پیدا نشد. عبارت دیگری را امتحان کنید.",cash:"صندوق",cashLink:"ورود صندوق",printNew:"چاپ رسیدهای چاپ‌نشده",saveF:"ذخیره رسیدها به‌صورت فایل",back:"بازگشت به سایت",noOrd:"هنوز سفارشی ثبت نشده.",local:"به سیستم مرکزی وصل نیستید؛ فقط سفارش‌های همین دستگاه دیده می‌شود. برای دریافت سفارش مشتریان باید با حساب مجاز وارد شوید.",deny:"فقط مدیر به صندوق دسترسی دارد.",s_new:"جدید",s_ready:"آماده",s_paid:"پرداخت‌شده",print:"چاپ رسید",del:"حذف",total:"جمع",price:"قیمت (تومان)",table:"میز",thanks:"ممنون از حضور شما",printed:"چاپ شد"},
+en:{brand:"Nafas",unit:"Prices in thousand toman",title:"Nafas Café",sub:"کافه نفس",addr:"Address",addrV:"End of Rudaki St., opposite Matin St.",tag:"One cup, one of life's best moments",frame:"Coffee · Hookah · Desserts · Breakfast",all:"All",seeMenu:"Menu & order",find:"Find us",menu:"Menu",aboutH:"One deep breath, one slow cup",aboutP:"Nafas is a place for fresh coffee, hookah, desserts and breakfast in a warm, quiet room. Sit down, talk, or just step away from the city for a few minutes.",search:"Search the menu, e.g. latte",visitH:"Visit Nafas",hrs:"Hours",hrsV:"Daily, 9 AM to 12 AM",tel:"Phone",map:"Open in maps",call:"Call to reserve",open:"Open now, until 12 AM",closed:"Closed now, opening at 9 AM",view:"View order",items:"items",yourOrder:"Your order",who:"Table number or name",note:"Notes (optional)",place:"Place order",need:"Enter a table number or name.",done:"Order placed",doneP:"Tell the cashier your order number.",close:"Close",none:"Nothing found. Try another word.",cash:"Cashier",cashLink:"Cashier login",printNew:"Print unprinted receipts",saveF:"Save receipts as file",back:"Back to site",noOrd:"No orders yet.",local:"Not connected to the main system; only orders from this device are shown. Sign in with an authorized account to receive customer orders.",deny:"Only the manager can open the cashier.",s_new:"New",s_ready:"Ready",s_paid:"Paid",print:"Print receipt",del:"Delete",total:"Total",price:"Price (toman)",table:"Table",thanks:"Thank you for visiting",printed:"Printed"}};
+var M=[["قلیان‌ها","",[["قلیان فانتزی","","مسکو//270;لیدی//270;لاو//270;دژاوو//270;جوکر//270;شیخ//270;بستنی//270;بلو ملون//270;ازمیر//270;بغدادی//270;آدامس نعنا//270;آدامس دارچین//270;آدامس کوهی//270;هیوا//270;پرتغال نعنا//270;پرتغال خامه//270"],["قلیان میوه‌ای","","آلبالو//250;لیمو ترش//250;لیمو شیرین//250;دو سیب//250;شلیل//250;نعنا//250;پرتغال//250;انار//250;انگور یخ//250;هندوانه یخ//250;بلوبری//250"],["سینی","","سینی ساده//150;سینی مخصوص//350"]]],["بار گرم","",[["","","اسپرسو سینگل//120;اسپرسو دبل//150;آمریکانو//160;لاته موکا//250;کاپوچینو//190;نسکافه//180;هات چاکلت//180;قهوه ترک//160;قهوه فرانسوی//250;کافه لاته//250;ماکیاتو//270"]]],["نوشیدنی سرد","",[["آیس کافی","","آیس کافی//200;آیس لاته//230;آیس کافی انرژیN/A//280;آیس آمریکانو//180;آیس موکا//290;آیس کارامل ماکیاتو//280;آیس فلت وایت//300"],["نوشیدنی‌های سرد","","موهیتو//250;رد موهیتو//250;لیموناد//240;لیموناد ویژه//380;سور چری//250;چری بری//290;شیر موز//260;شیر پسته//300;شیر نارگیل//280;شیر کاکائو//250;شیر قهوه//230"]]],["شیک و آبمیوه","",[["شیک‌ها","","نوتلا//340;وانیل//270;شکلاتی//300;توت فرنگی//300;بادام زمینی//300"],["آبمیوه‌ها","","آلبالو//250;پرتغال//290;آناناس//300;انبه//280;هلو//250;سیب//280;انار//290;هندوانه//200;طالبی//240;هویج//300"]]],["چای و دمنوش","",[["","","چای معمولی//75;چای سبز//130;چای ترش//140;چای دارچین//120;چای بیدمشک//150;دمنوش آرامش//150;دمنوش به‌لیمو//170;دمنوش نعنا//155;دمنوش گل‌گاوزبان//160;دمنوش بابونه//165"]]],["صبحانه","",[["","","صبحانه ایرانی//350;صبحانه فرانسوی//400;صبحانه ایتالیایی//480;نیمرو//150;سوسیس تخم‌مرغ//230;املت//190;تن ماهی//280;خاگینه//300;قیساوا//450;سینی مخصوص نفس//630"]]],["دسر و کیک","",[["","","ترامیسو//d;کیک شکلاتی//d;کیک خیس//d;کروسان//d;کیک بستنی//d;چیزکیک//d"]]],["فست فود","",[["","","برگر//280;برگر مخصوص//370;ماشروم برگر//380;سیب‌زمینی ساده//260;سیب‌زمینی ویژه//360;هات‌داگ//325;هات‌داگ ویژه//380;سیب با سس قارچ//370;سالاد سزار//500;پاستا چیکن آلفردو//580;کاسه مرغ//300;قارچگر//220"]]]];
+var CAT_EN=["Hookahs","Hot Bar","Cold Drinks","Shakes & Juices","Tea & Herbal Tea","Breakfast","Desserts & Cakes","Fast Food"];
+var GROUP_EN={
+ "0":["Fantasy Hookahs","Fruit Hookahs","Trays"],
+ "1":["Coffee & Hot Drinks"],
+ "2":["Iced Coffee","Cold Drinks"],
+ "3":["Milkshakes","Fresh Juices"],
+ "4":["Tea & Herbal Infusions"],
+ "5":["Breakfast"],
+ "6":["Desserts & Cakes"],
+ "7":["Fast Food"]
+};
+function catName(c,ci){return lang==="fa"?c[0]:(CAT_EN[ci]||c[0])}
+function groupName(ci,gi,g){return lang==="fa"?(g[0]||""):(GROUP_EN[ci]&&GROUP_EN[ci][gi]||g[0]||"")}
+var I={},lang="fa",cur=-1,cart={},ORD=[],db=null,tabs=document.getElementById("tabs"),list=document.getElementById("list"),q=document.getElementById("q");
+M.forEach(function(c,ci){c[2].forEach(function(g,gi){g[2]=g[2].split(";").map(function(s,ii){var p=s.split("/"),k=ci+"."+gi+"."+ii;I[k]={fa:p[0],en:p[1]||p[0],pr:p[2]||""};return k})})});
+function $(i){return document.getElementById(i)}
+function t(k){return T[lang][k]}
+function nf(n){return (+n||0).toLocaleString(lang=="fa"?"fa-IR":"en-US")}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function nm(k){return I[k][lang]}
+function row(k){var n=cart[k]||0,v=I[k].pr,pt=v=="d"?"قیمت روز":v?nf(+v):"";return'<div class="it"><span class="nm">'+esc(nm(k))+'</span>'+(pt?'<span class="pr">'+pt+'</span>':'')+'<span class="q">'+(n?'<button data-k="'+k+'" data-d="-1" aria-label="-">−</button><span>'+nf(n)+'</span>':'')+'<button class="p" data-k="'+k+'" data-d="1" aria-label="+">+</button></span></div>'}
+function pp(k){var v=I[k].pr;return v&&v!="d"?+v:0}
+function tt(){var s=0,x=0;Object.keys(cart).forEach(function(k){var v=I[k].pr;if(v&&v!="d")s+=+v*cart[k];else x=1});return s?'<p style="color:var(--gold);margin:12px 0 0">جمع: '+nf(s)+' هزار تومان'+(x?' + موارد قیمت روز / بدون قیمت':'')+'</p>':''}
+function nz(x){return String(x).toLowerCase().replace(/[\u200c\s]/g,"").replace(/ي/g,"ی").replace(/ك/g,"ک").replace(/[آأإ]/g,"ا")}
+function renderMenu(){
+ var term=nz(q.value),h="";
+ M.forEach(function(c,ci){
+  if(!term&&cur>-1&&ci!==cur)return;
+  if(!term&&cur<0)h+='<h3 class="cat">'+esc(catName(c,ci))+"</h3>";
+  c[2].forEach(function(g,gi){
+   var ks=g[2].filter(function(k){
+    return !term||nz(I[k].fa).indexOf(term)>-1||nz(I[k].en).indexOf(term)>-1;
+   });
+   if(!ks.length)return;
+   var group=groupName(ci,gi,g);
+   var hd=term?catName(c,ci)+(group?" - "+group:""):group;
+   if(hd)h+="<h3>"+esc(hd)+"</h3>";
+   h+=ks.map(row).join("");
+  });
+ });
+ list.innerHTML=h||'<p class="empty">'+t("none")+"</p>";
+ [].forEach.call(tabs.children,function(b,i){b.setAttribute("aria-pressed",!term&&i-1===cur)});
+}
+function renderTabs(){tabs.innerHTML="";var a0=document.createElement("button");a0.textContent=t("all");a0.onclick=function(){cur=-1;q.value="";renderMenu()};tabs.appendChild(a0);M.forEach(function(c,i){var b=document.createElement("button");b.textContent=catName(c,i);b.onclick=function(){cur=i;q.value="";renderMenu()};tabs.appendChild(b)})}
+function cartInfo(){var n=0;Object.keys(cart).forEach(function(k){n+=cart[k]});return n}
+function cbar(){var n=cartInfo();$("cbar").classList.toggle("on",n>0);$("cn").textContent=t("view");$("ct").textContent=nf(n)+" "+t("items")}
+list.onclick=function(e){var b=e.target.closest("button");if(!b)return;var k=b.dataset.k,d=+b.dataset.d;cart[k]=Math.max(0,(cart[k]||0)+d);if(!cart[k])delete cart[k];var y=list.scrollTop;renderMenu();cbar()};
+function setLang(l){lang=l;document.documentElement.lang=l;document.documentElement.dir=l=="fa"?"rtl":"ltr";try{localStorage.setItem("nafas-lang",l)}catch(e){}
+ [].forEach.call(document.querySelectorAll("[data-i]"),function(e){e.textContent=t(e.dataset.i)});
+ [].forEach.call(document.querySelectorAll("[data-p]"),function(e){e.placeholder=t(e.dataset.p)});
+ document.title="کافه نفس | Nafas Café";
+ renderTabs();renderMenu();cbar();clock()}
+q.oninput=renderMenu;
+function clock(){try{var h=+new Intl.DateTimeFormat("en",{hour:"numeric",hour12:false,timeZone:"Asia/Tehran"}).format(new Date())%24,on=h>=9&&h<24;$("state").textContent=t(on?"open":"closed");$("dot").className=on?"dot":"dot off"}catch(e){}}
+/* ordering */
+function sheet(h){$("sheet").innerHTML=h;$("ov").classList.add("on")}
+function closeS(){$("ov").classList.remove("on")}
+$("ov").onclick=function(e){if(e.target===$("ov"))closeS()};
+$("cbar").onclick=function(){var h='<h3>'+t("yourOrder")+'</h3>'+Object.keys(cart).map(row).join("")+tt()+'<label for="tb" style="display:block;margin-top:16px">'+t("who")+'</label><input id="tb" maxlength="40"><label for="nt">'+t("note")+'</label><textarea id="nt" rows="2" maxlength="200"></textarea><p id="er" style="color:#e0a98f;margin:0 0 8px"></p><button class="btn solid" id="go" style="width:100%">'+t("place")+'</button>';
+ sheet(h);$("sheet").onclick=function(e){var b=e.target.closest("button[data-k]");if(!b)return;var k=b.dataset.k;cart[k]=Math.max(0,(cart[k]||0)+ +b.dataset.d);if(!cart[k])delete cart[k];if(!cartInfo()){closeS()}else{var tb=$("tb").value,nt=$("nt").value;$("cbar").onclick();$("tb").value=tb;$("nt").value=nt}renderMenu();cbar()};
+ $("go").onclick=place};
+function getOrderConfig(){var u=String(window.SB_URL||"").trim().replace(/\/+$/,"");var k=String(window.SB_KEY||"").trim();return u&&k?{url:u,key:k}:null}
+async function submit(o){var c=getOrderConfig();if(!c)throw new Error("اتصال پایگاه داده تنظیم نشده است.");var r=await fetch(c.url+"/rest/v1/orders",{method:"POST",headers:{apikey:c.key,Authorization:"Bearer "+c.key,"Content-Type":"application/json",Prefer:"return=minimal"},body:JSON.stringify({no:o.no,table_name:o.table,note:o.note,lines:o.lines})});if(!r.ok){var detail=await r.text();throw new Error("ثبت سفارش ناموفق بود ("+r.status+"). "+detail.slice(0,180))}}
+function sendWhatsAppOrder(o){var rows=o.lines.map(function(l){return "- "+l.fa+" × "+l.q}).join("\n");var total=o.lines.reduce(function(s,l){return s+(+l.p||0)*(+l.q||0)},0);var msg="سلام کافه نفس، می‌خواهم سفارش ثبت کنم.\nنام/میز: "+o.table+"\n"+rows+"\nجمع: "+nf(total)+" هزار تومان"+(o.note?"\nتوضیحات: "+o.note:"");window.location.href="https://wa.me/989010197501?text="+encodeURIComponent(msg)}
+async function place(){var tb=$("tb").value.trim();if(!tb){$("er").textContent=t("need");return}
+ var now=Date.now(),o={id:"o"+now.toString(36),no:String(now).slice(-4),t:now,table:tb,note:$("nt").value.trim(),st:"new",printed:false,lines:Object.keys(cart).map(function(k){return{fa:I[k].fa,en:I[k].en,q:cart[k],p:pp(k)}})};
+ var cloud=getOrderConfig();if(!cloud){sendWhatsAppOrder(o);return}
+ $("go").disabled=true;try{await submit(o)}catch(e){$("er").textContent="خطا: "+(e&&e.message||e);$("go").disabled=false;return}
+ cart={};cbar();renderMenu();sheet('<div class="done"><h3>'+t("done")+'</h3><b>'+nf(o.no)+'</b><p>'+t("doneP")+'</p><button class="btn solid" id="cl">'+t("close")+'</button></div>');$("cl").onclick=closeS}
+var sl="fa";try{sl=localStorage.getItem("nafas-lang")||(navigator.language||"").slice(0,2)=="en"&&"en"||"fa"}catch(e){}
+setLang(sl);
+$("lg").addEventListener("click",function(){setLang(lang==="fa"?"en":"fa")});
+</script>
+</body>
+</html>
